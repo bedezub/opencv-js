@@ -31,8 +31,8 @@ jobs:
       - name: Checkout opencv
         uses: actions/checkout@v4
         with:
-          repository: opencv/opencv
-          ref: 4.9.0
+          repository: bedezub/opencv
+          ref: 4.10.0
           path: opencv
       - name: Build opencv.js
         run: |
